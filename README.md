@@ -30,7 +30,7 @@ dotnet new -i <PATH>
 
 Where `<PATH>` is the path to the folder containing .template.config.
 
-### run
+### Run
 
 ```
 dotnet new telegram-bot -n YourCompany.Bot
