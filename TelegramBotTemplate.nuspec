@@ -21,6 +21,9 @@
         <packageTypes>
             <packageType name="Template" />
         </packageTypes>
+        <dependencies>
+          <dependency id="Telegram.Bot" version="15.7.1" />
+        </dependencies>
     </metadata>
     <files>
       <file src=".template.config\**" target=".template.config" />
@@ -28,7 +31,4 @@
       <file src="TelegramBotTemplate.sln" target="TelegramBotTemplate.sln" />
       <file src="src\**" target="src" exclude="**\bin\**\*;**\obj\**\*;**\*.csproj.user" />
     </files>
-    <dependencies>
-      <dependency id="Telegram.Bot" version="15.7.1" />
-    </dependencies>
 </package>
