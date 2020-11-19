@@ -1,5 +1,4 @@
-steps:
-name: Create NuGet Template Package
+name: CI NuGet Template Package
 on:
   push:
     branches: [master]
