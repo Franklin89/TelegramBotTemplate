@@ -18,4 +18,4 @@ jobs:
       run: nuget pack .\TelegramBotTemplate.nuspec -OutputFileNamesWithoutVersion
 
     - name: Nuget Push
-      run: nuget push .\TelegramBotTemplate.nupkg
+      run: nuget push .\TelegramBotTemplate.nupkg -ApiKey ${{ secrets.NUGETAPIKEY }}
