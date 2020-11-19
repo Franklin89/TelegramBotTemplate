@@ -11,7 +11,7 @@ jobs:
 
     - uses: nuget/setup-nuget@v1
       with:
-        nuget-api-key: ${{ secrets.NuGetAPIKey }}
+        nuget-api-key: ${{ secrets.NUGETAPIKEY }}
         nuget-version: '5.x'
 
     - name: Nuget Pack
