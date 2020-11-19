@@ -1,6 +1,6 @@
-# Telegram Bot Template [Beta]
+# Telegram Bot Template
 
-This is a template project for a Telegram Bot using the the [Telegram.Bot](https://github.com/TelegramBots/telegram.bot) Nuget Package.
+This is a template project for a Telegram Bot using the the [Telegram.Bot](https://github.com/TelegramBots/telegram.bot) Nuget Package. After you install the template and created the project using `dotnet new` you can navigate to the `Commands` folder and add your custom commands. Since this is only a template and not some sort of framework it is a way of getting started quickly building your Telegram Bot. You can then extend or alter in any way you want.
 
 ## Features
 
@@ -8,6 +8,7 @@ This is a template project for a Telegram Bot using the the [Telegram.Bot](https
 - Simple ready to use project that can be enhanced
 - No extra framework
 - Sample commands
+- Dockerfile included (run your bot by calling `docker run ... -e Telegram:ApiKey=...`)
 
 ## Using the template
 
