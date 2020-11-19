@@ -9,8 +9,10 @@ jobs:
     steps:
     - uses: actions/checkout@master
 
-    - name: Setup Nuget.exe
-      uses: warrenbuckley/Setup-Nuget@v1
+    - uses: nuget/setup-nuget@v1
+      with:
+        nuget-api-key: ${{ secrets.NuGetAPIKey }}
+        nuget-version: '5.x'
 
-    - name: Nuget Push
+    - name: Nuget Pack
       run: nuget pack .\TelegramBotTemplate.nuspec
