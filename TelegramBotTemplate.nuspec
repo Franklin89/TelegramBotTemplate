@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package
+    xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>TelegramBotTemplate</id>
+        <version>0.0.1</version>
+        <title>TelegramBot.Template</title>
+        <!-- <license type="file">LICENSE</license> -->
+        <description>
+            Creates a simple ready to go Telegram Bot using Telegram.Bot
+        </description>
+        <projectUrl>https://github.com/Franklin89/TelegramBotTemplate</projectUrl>
+        <authors>Franklin89</authors>
+        <owners>Franklin89</owners>
+        <language>en-US</language>
+        <tags>ASP.NET Core Telegram Bot</tags>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <copyright>2020 Franklin89</copyright>
+        <summary>This template provides a simle getting started Telegram Bot using the Telegram.Bot nuget package</summary>
+        <releaseNotes>Initial Release</releaseNotes>
+        <repository type="git" url="https://github.com/Franklin89/TelegramBotTemplate" />
+        <packageTypes>
+            <packageType name="Template" />
+        </packageTypes>
+    </metadata>
+    <files>
+      <file src=".template.config\**" target=".template.config" />
+      <file src="Dockerfile" target="Dockerfile" />
+      <file src="TelegramBotTemplate.sln" target="TelegramBotTemplate.sln" />
+      <file src="src\**" target="src" exclude="**\bin\**\*;**\obj\**\*;**\*.csproj.user" />
+    </files>
+</package>

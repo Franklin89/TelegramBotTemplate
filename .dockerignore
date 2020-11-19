@@ -1,0 +1,30 @@
+# ignore .git and .cache folders
+.git
+.cache
+
+# ignore database file
+*.db
+*.db-shm
+*.db-wal
+
+**/.classpath
+**/.dockerignore
+**/.env
+**/.gitignore
+**/.project
+**/.settings
+**/.toolstarget
+**/.vs
+**/.vscode
+**/*.*proj.user
+**/*.dbmdl
+**/*.jfm
+**/azds.yaml
+**/charts
+**/docker-compose*
+**/Dockerfile*
+node_modules
+**/npm-debug.log
+
+**/bin
+obj
