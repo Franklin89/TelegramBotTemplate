@@ -15,7 +15,7 @@ jobs:
         nuget-version: '5.x'
 
     - name: Nuget Pack
-      run: nuget pack *.nuspec
+      run: nuget pack .\*.nuspec
 
     - name: Nuget Push
-      run: nuget push *.nupkg
+      run: nuget push .\*.nupkg
