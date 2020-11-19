@@ -3,9 +3,8 @@
     xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
         <id>TelegramBotTemplate</id>
-        <version>0.0.1</version>
+        <version>0.0.2</version>
         <title>TelegramBot.Template</title>
-        <!-- <license type="file">LICENSE</license> -->
         <description>
             Creates a simple ready to go Telegram Bot using Telegram.Bot
         </description>
@@ -29,4 +28,7 @@
       <file src="TelegramBotTemplate.sln" target="TelegramBotTemplate.sln" />
       <file src="src\**" target="src" exclude="**\bin\**\*;**\obj\**\*;**\*.csproj.user" />
     </files>
+    <dependencies>
+      <dependency id="Telegram.Bot" version="15.7.1" />
+    </dependencies>
 </package>
