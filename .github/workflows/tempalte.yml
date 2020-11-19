@@ -1,0 +1,17 @@
+steps:
+name: Create NuGet Template Package
+on:
+  push:
+    branches: [master]
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@master
+
+    - name: Setup Nuget.exe
+      uses: warrenbuckley/Setup-Nuget@v1
+
+    - name: Nuget Push
+      run: nuget pack .\TelegramBotTemplate.nuspec
