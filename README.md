@@ -1,10 +1,13 @@
-# Telegram Bot Template [WORK IN PROGRESS]
+# Telegram Bot Template [Beta]
 
 This is a template project for a Telegram Bot using the the [Telegram.Bot](https://github.com/TelegramBots/telegram.bot) Nuget Package.
 
 ## Features
 
-- ...
+- Automatically discover your commands
+- Simple ready to use project that can be enhanced
+- No extra framework
+- Sample commands
 
 ## Using the template
 
