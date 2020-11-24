@@ -37,7 +37,7 @@ Where `<PATH>` is the path to the folder containing .template.config.
 ### Run
 
 ```
-dotnet new telegram-bot -n YourCompany.Bot
+dotnet new telegram-bot -n <YourCompany.Bot>
 ```
 
 Use the `-n` or `--name` parameter to change the name of the output created. This string is also used to substitute the namespace name in the .cs file for the project.
@@ -47,3 +47,19 @@ Use the `-n` or `--name` parameter to change the name of the output created. Thi
 ```
 dotnet new -u TelegramBotTemplate
 ```
+
+## Using the docker file
+
+### Building the image
+
+```
+docker build . -t <NameOfYourImage>
+```
+
+### Run the image
+
+```
+docker run <NameOfYourImage> -e Telegram:ApiKey=<YourTelegramApiKey>
+```
+
+You can add the `-it` parameter to the `docker run` command to start the container in the interactive mode and see the log output.
