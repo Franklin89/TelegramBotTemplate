@@ -3,7 +3,7 @@
     xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
         <id>TelegramBotTemplate</id>
-        <version>0.0.2</version>
+        <version>0.0.3</version>
         <title>TelegramBot.Template</title>
         <description>
             Creates a simple ready to go Telegram Bot using Telegram.Bot
